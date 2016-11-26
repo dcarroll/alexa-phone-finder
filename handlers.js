@@ -60,7 +60,7 @@ let doCallPhone = (toNumber) => {
 
     to:"+1" + toNumber, // Any number Twilio can call
     from: fromNumber, // A number you bought from Twilio and can use for outbound communication
-    url: 'https://demo.twilio.com/welcome/voice/' // A URL that produces an XML document (TwiML) which contains instructions for the call
+    url: process.env.TWIML_URL // A URL that produces an XML document (TwiML) which contains instructions for the call
 
 }, function(err, responseData) {
 

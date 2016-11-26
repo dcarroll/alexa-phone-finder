@@ -9,6 +9,15 @@
     "AUTH_TOKEN": {
       "description": "Twilio authentication token",
       "value":""
+    },
+    "FROM_NUMBER": {
+      "description": "Twilio account phone number.",
+      "value":""
+    },
+    "TWIML_URL": {
+      "description": "A URL that produces an XML document (TwiML) which contains instructions for the call",
+      "value":""
     }
+
   }
 }
