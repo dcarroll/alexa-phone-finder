@@ -1,6 +1,7 @@
 {
-  "name": "DreamHouse Alexa Skill",
-  "description": "Salesforce-powered Skill for Alexa in the DreamHouse sample app",
+  "name": "Find Phone Alexa Skill",
+  "repository": "https://github.com/dcarroll/alexa-phone-finder",
+  "description": "Skill for Alexa to dial phone numbers",
   "env": {
     "ACCOUNT_SID": {
       "description": "Twilio Account SID",
@@ -17,7 +18,10 @@
     "TWIML_URL": {
       "description": "A URL that produces an XML document (TwiML) which contains instructions for the call",
       "value":""
+    },
+    "CONTACTS": {
+      "description": "Key/value pair list of contacts by Name: Phonenumber.",
+      "value":""
     }
-
   }
 }

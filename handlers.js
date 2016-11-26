@@ -30,22 +30,7 @@ exports.SearchHouses = (slots, session, response) => {
     }
 };
 
-let contacts = {
-    "Dave": "6507430794",
-    "Hailey": "6507433150",
-    "Sidney": "6507433823",
-    "Sydney": "6507433823",
-    "Mercy": "6507434812",
-    "mercy": "6507434812",
-    "Jake": "6507432348",
-    "Dave's": "6507430794",
-    "Hailey's": "6507433150",
-    "Sidney's": "6507433823",
-    "Sydney's": "6507433823",
-    "Mercy's": "6507434812",
-    "mercy's": "6507434812",
-    "Jake's": "6507432348"
-};
+let contacts = JSON.parse(process.env.CONTACTS); 
 
 exports.Call = (slots, session, response) => {
     this.Ring(slots, session, response);
