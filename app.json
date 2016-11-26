@@ -1,0 +1,14 @@
+{
+  "name": "DreamHouse Alexa Skill",
+  "description": "Salesforce-powered Skill for Alexa in the DreamHouse sample app",
+  "env": {
+    "ACCOUNT_SID": {
+      "description": "Twilio Account SID",
+      "value":""
+    },
+    "AUTH_TOKEN": {
+      "description": "Twilio authentication token",
+      "value":""
+    }
+  }
+}

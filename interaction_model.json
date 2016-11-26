@@ -1,0 +1,32 @@
+{
+  "intents": [
+    {
+      "intent": "Call",
+      "slots": [
+        {
+          "name": "Phone",
+          "type": "AMAZON.NUMBER"
+        },
+        { "name": "Who",
+          "type": "AMAZON.US_FIRST_NAME"
+        }
+      ]
+    },
+    {
+      "intent": "Ring",
+      "slots": [
+        {
+          "name": "Phone",
+          "type": "AMAZON.NUMBER"
+        },
+        { "name": "Who",
+          "type": "AMAZON.US_FIRST_NAME"
+        }
+
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
